@@ -1,0 +1,250 @@
+@import "moz.css";
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+/*
+ * По умолчанию горизонтальная линейка
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 5px solid #000;
+  margin: 1em 0;
+  padding: 0;
+}
+/*
+ * Удалить разрыв между audio, canvas, iframes,
+ * images, videos и дна контейнеров:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+/*
+ * Удалить по умолчанию набор полей стилей
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+/*
+ * Допускают только вертикальное изменение размеров textareas.
+ */
+textarea {
+  resize: vertical;
+}
+/* ==========================================================================
+   Браузер Обновить Строки
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+h2 {
+  font-family: 'museo900', sans-serif;
+  font-size: 6.253em;
+  margin-top: 125px;
+}
+p.descr {
+  font-weight: 300;
+  font-size: 1.600em ;
+  line-height: normal;
+  letter-spacing: normal;
+}
+html {
+  font-size: inherit;
+}
+body {
+  font-family: 'Fira Sans', 'museo900', sans-serif;
+  font-size: 62.5%;
+  line-height: 1.66em;
+  letter-spacing: 0.025em;
+  -webkit-text-size-adjust: 0.625em;
+  /* 2 */
+  -ms-text-size-adjust: 0.625em;
+  /* 2 */
+  color: #000;
+  background-color: #e6e6e7;
+  font-kerning: auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1550px;
+  }
+}
+.page1 {
+  overflow: hidden;
+  width: 100%;
+  min-height: auto;
+  background: url("../img/coffe.png") 98% 90% no-repeat, url("../img/donut.png") 10% 85% no-repeat, #ffd500;
+}
+.page1 nav {
+  margin-top: 61px;
+}
+.page1 nav ul {
+  /* Common button styles */
+  /* Ujarak */
+}
+.page1 nav ul li {
+  display: inline-block;
+}
+.page1 nav ul li a {
+  font: 500 2.5em 'Fira Sans', sans-serif;
+}
+.page1 nav ul li a:hover {
+  text-decoration: none;
+}
+.page1 nav ul li a.active {
+  background-color: #000000;
+  border-radius: 19px;
+  color: #ffd500;
+}
+.page1 nav ul .button {
+  float: left;
+  display: block;
+  margin: 0.300em;
+  padding: 7px 10px;
+  border: none;
+  background: none;
+  color: inherit;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.page1 nav ul .button:focus {
+  outline: none;
+}
+.page1 nav ul .button > span {
+  vertical-align: middle;
+}
+.page1 nav ul .button--ujarak {
+  -webkit-transition: border-color 0.4s, color 0.4s;
+  transition: border-color 0.4s, color 0.4s;
+}
+.page1 nav ul .button--ujarak::before {
+  border-radius: 19px;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transform: scale3d(0.7, 1, 1);
+  transform: scale3d(0.7, 1, 1);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  transition: transform 0.4s, opacity 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.page1 nav ul .button--ujarak,
+.page1 nav ul .button--ujarak::before {
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.page1 nav ul .button--ujarak:hover {
+  color: #ffd500;
+}
+.page1 nav ul .button--ujarak:hover::before {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.page1 .header h2 {
+  font: 7.727em 'museo900', sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+.page1 .header img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.page1 .more {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  width: 17%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.page1 .more img {
+  max-width: 100%;
+}
+.page2,
+.page3 {
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+}
+.page2 .upBox {
+  padding-bottom: 80px;
+  outline: 1px solid red;
+}
+.page2 .upBox .upBox_h2 {
+  position: relative;
+  overflow: hidden;
+}
+.page2 .upBox .upBox_h2 h2 {
+  margin-bottom: 40px;
+}
+.page2 .upBox .upBox_h2 hr.a1 {
+  bottom: 5px;
+  left: 46px;
+  position: absolute;
+  width: 50%;
+}
+.page2 .upBox .upBox_h2 hr.a2 {
+  left: 93px;
+  bottom: -10px;
+  position: absolute;
+  width: 50%;
+}
+.page2 .upBox p {
+  margin-top: 125px;
+}
+.page2 .donut .item {
+  outline: 1px solid red;
+}
+.page2 .donut .item img {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  vertical-align: top;
+}

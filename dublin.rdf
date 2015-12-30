@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc= "http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="http://www.starstudios.ru/">
+<dc:contributor>DTstudio</dc:contributor>
+<dc:date>2008-07-26</dc:date>	
+<dc:description>This is my website.</dc:description>
+<dc:language>RU</dc:language>
+<dc:publisher>Company</dc:publisher>
+<dc:source>http://www.s-dt.ru/</dc:source>
+</rdf:Description>
+</rdf:RDF>

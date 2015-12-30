@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>Дизайн фирменого стиля, Дизайн интерьера, Веб дизайн</ShortName>
+<Description>Мы помогаем компаниям эффективно использовать дизайн в своем развитии, знаем как и чем привлечь целевую аудиторию. Гарантируем возврат денег, если не повысятся продажи</Description>
+<Image>favicon.ico</Image>
+<Url type="text/html" template="http://www.s-dt.ru/"/>
+<Attribution>Copyright, Starstudio 2012, Some Rights Reserved.</Attribution>
+<Contact>dreantouch@bk.ru</Contact>
+<Developer>Z.Marat</Developer>
+<InputEncoding>UTF-8</InputEncoding>
+<Language>ru</Language>
+<OutputEncoding>UTF-8</OutputEncoding>
+<Query role="example" searchTerms="terms" />
+<Tags>создать сайт в махачкале, web студия, создать сайт в дагестане, создать логотип, дизайн интерьера</Tags>
+	</OpenSearchDescription>

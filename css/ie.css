@@ -1,0 +1,32 @@
+.ie6 .class {background: #fff}
+.ie7 .class {background: #eee}
+.ie8 .class {background: #000}
+.iem7 .class {background: #aaa}
+/* IE 6 */
+* html .yourclass { }
+
+/* IE 7 */
+*+html .yourclass{ }
+
+/* IE 7 and modern browsers */
+html>body .yourclass { }
+
+/* Modern browsers (not IE 7) */
+html>/**/body .yourclass { }
+
+/* Opera 9.27 and below */
+html:first-child .yourclass { }
+
+/* Safari */
+html[xmlns*=""] body:last-child .yourclass { }
+
+/* Safari 3+, Chrome 1+, Opera 9+, Fx 3.5+ */
+body:nth-of-type(1) .yourclass { }
+
+/* Safari 3+, Chrome 1+, Opera 9+, Fx 3.5+ */
+body:first-of-type .yourclass { }
+
+/* Safari 3+, Chrome 1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .yourclass { }
+}
