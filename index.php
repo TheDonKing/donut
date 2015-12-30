@@ -54,6 +54,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" type="text/css" />
     <link href='//fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
     <link href='//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.0/animate.min.css' rel='stylesheet' type='text/css'>
+    <link href='libs/mixtup/filter.css' rel='stylesheet' type='text/css'>
     <!-- Удалить --> <!-- @TODO Удалить ссылку -->
     <link href='libs/bootstrap/bootstrap.min.css' rel='stylesheet' type='text/css'>
 
@@ -110,7 +111,7 @@
         <div class="bg"></div>
     </header>
 
-    <section id="2" class="page2">
+    <section id="what" class="what">
         <div class="container">
             <div class="row">
                 <div class="upBox col-md-12">
@@ -123,24 +124,68 @@
                         <p class="descr">Слово «пончик» имеет множество значений: от обозначения воздушной жареной пышки до обидного прозвища толстушек. Пончик как кондитерское изделие представляет собой обжаренный во фритюре кусок дрожжевого теста, пышку, непременно сладкую и часто с начинкой внутри. В разных частях планеты пончиками называют пирожки, дрожжевые пирожные, крендели с дырочкой в середине или пухлые булочки. Вкус этой выпечки ассоциируется с детством и достатком, гармонией и сытостью. </p>
                     </div>
                 </div>
-                <div class="donut col-md-12">
-                    <div class="item col-lg-4">
+                <div class="donut col-md-12 ">
+                    <div class="item col-lg-4 ">
                         <img src="img/donut_1.png" alt=""/>
+                        <h3>Традиционный пончик</h3>
+                        <p>Представляет собой золотистый шарик. Пышка имеет форму кольца. Пышки и пончики готовятся в большом количестве масла и подаются горячими.</p>
                     </div>
-                    <div class="item col-lg-4">
+                    <div class="item col-lg-4 ">
                         <img src="img/donut_2.png" alt=""/>
+                        <h3>Берлинский пончик</h3>
+                        <p>Европейский пончик, особо популярный в Австрии и Германии. Готовится он из сладкого дрожжевого теста, путем обжаривания во фритюре с 2 сторон, переворачивая в процессе. В результате по окружности получается светлая полоса. Берлинеры обычно начиняют конфитюром или кремом, а сверху посыпают сахарной пудрой и поливают глазурью.</p>
                     </div>
-                    <div class="item col-lg-4">
-                        <img src="img/donut_1.png" alt=""/>
+                    <div class="item col-lg-4 ">
+                        <img src="img/donut_3.png" alt=""/>
+                        <h3>Донат</h3>
+                        <p>Американский пончик. Имеет форму кольца. Жарят донаты, погружая во фритюр. Донаты, как и берлинеры, готовят с разнообразными начинками (джем, заварной или белковый крем), а сверху покрывают глазурью или посыпают сахарной пудрой, орехами, кокосовой стружкой.</p>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="3" class="page3">
+    <section id="production" class="production">
+        <div class="container">
+            <div class="row">
+                <div class="head col-lg-12">
+                    <div class="left col-lg-8"></div>
+                    <div class="right col-lg-4">
+                        <h2>Продукция</h2>
+                        <hr class="a1"/>
+                        <hr class="a2"/>
+                    </div>
+                </div>
+                <div class="item col-lg-12 col-md-12">
+                    <main class="cd-main-content">
+                        <section class="cd-gallery">
+                            <ul>
+                                <li class="mix flyers "><img  src="img/portfolio/1.png" alt="Image 1"></li>
+                                <li class="mix forms "><img src="img/portfolio/2.png" alt="Image 2"></li>
+                                <li class="mix flyers "><img src="img/portfolio/3.png" alt="Image 3"></li>
+                                <li class="mix booklets "><img src="img/portfolio/4.png" alt="Image 4"></li>
+                                <li class="mix flyers "><img src="img/portfolio/1.png" alt="Image 5"></li>
+                                <li class="mix forms "><img src="img/portfolio/2.png" alt="Image 6"></li>
+                                <li class="mix forms "><img src="img/portfolio/3.png" alt="Image 7"></li>
+                                <li class="mix flyers "><img src="img/portfolio/4.png" alt="Image 8"></li>
+                                <li class="mix color-2 "><img src="img/portfolio/1.png" alt="Image 9"></li>
+                                <li class="mix booklets "><img src="img/portfolio/2.png" alt="Image 10"></li>
+                                <li class="mix flyers "><img src="img/portfolio/3.png" alt="Image 11"></li>
+                                <li class="mix forms "><img src="img/portfolio/4.png" alt="Image 12"></li>
+                                <li class="mix cards "><img src="img/portfolio/1.png" alt="Image 11"></li>
+                                <li class="mix cards "><img src="img/portfolio/2.png" alt="Image 12"></li>
+                                <li class="gap"></li>
+                                <li class="gap"></li>
+                                <li class="gap"></li>
+                            </ul>
+                            <div class="cd-fail-message">No results found</div>
+                        </section> <!-- cd-gallery -->
 
+                    </main> <!-- cd-main-content -->
+                </div>
+
+            </div>
+        </div>
     </section>
 
 
@@ -155,6 +200,7 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.0/jquery.nicescroll.min.js"></script>
 <script type="text/javascript" src="libs/respond/respond.min.js"></script>
+<script type="text/javascript" src="libs/mixtup/jquery.mixitup.min.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="libs/landing-nav/navigation.js"></script>
 <script type="text/javascript" src="js/common.js"></script>

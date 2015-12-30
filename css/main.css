@@ -207,44 +207,88 @@ body {
 .page1 .more img {
   max-width: 100%;
 }
-.page2,
-.page3 {
+.what,
+.production {
   background-color: #fff;
   height: auto;
   width: 100%;
 }
-.page2 .upBox {
+.what .upBox {
   padding-bottom: 80px;
   outline: 1px solid red;
 }
-.page2 .upBox .upBox_h2 {
+.what .upBox .upBox_h2 {
   position: relative;
   overflow: hidden;
 }
-.page2 .upBox .upBox_h2 h2 {
+.what .upBox .upBox_h2 h2 {
   margin-bottom: 40px;
 }
-.page2 .upBox .upBox_h2 hr.a1 {
+.what .upBox .upBox_h2 hr.a1 {
   bottom: 5px;
   left: 46px;
   position: absolute;
   width: 50%;
 }
-.page2 .upBox .upBox_h2 hr.a2 {
+.what .upBox .upBox_h2 hr.a2 {
   left: 93px;
   bottom: -10px;
   position: absolute;
   width: 50%;
 }
-.page2 .upBox p {
+.what .upBox p {
   margin-top: 125px;
 }
-.page2 .donut .item {
+.what .donut {
+  overflow: hidden;
+  outline: 1px solid red;
+  height: auto;
+  width: 100%;
+}
+.what .donut .item {
+  background: url("../img/itemline.png") no-repeat 50% 230px;
   outline: 1px solid red;
 }
-.page2 .donut .item img {
-  margin: 0 auto;
+.what .donut .item img {
+  margin: 0 auto 20px;
   text-align: center;
   display: block;
   vertical-align: top;
+  max-width: 100%;
+}
+.what .donut .item h3 {
+  margin: 0;
+  font: 2.4em 'museo900', sans-serif;
+  text-align: center;
+}
+.what .donut .item p {
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.600em;
+}
+.production {
+  position: relative;
+  outline: 1px solid red;
+}
+.production h2 {
+  text-align: center;
+  margin-bottom: 52px;
+}
+.production .right hr.a1 {
+  bottom: 5px;
+  left: 78px;
+  position: absolute;
+  width: 63%;
+}
+.production .right hr.a2 {
+  left: 100px;
+  bottom: -10px;
+  position: absolute;
+  width: 70%;
+}
+.production .item {
+  width: 100%;
+  overflow: hidden;
 }
