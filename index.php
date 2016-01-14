@@ -73,7 +73,7 @@
     <!--[if lt IE 7 ]> <html lang="ru" class="ie6 oldie"> <![endif]-->
     <!--[if IE 7 ]> <html lang="ru" class="ie7 oldie"> <![endif]-->
     <!--[if IE 8 ]> <html lang="ru" class="ie8 oldie"> <![endif]-->
-    <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="ru"><!--<![endif]-->
+    <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="ru"/><!--<![endif]-->
 
     <!--if lte IE 8]>
     <script src="libs/respond/respond.min.js"/></script>
@@ -145,48 +145,48 @@
         </div>
     </section>
 
-    <section id="production" class="production">
-        <div class="container">
-            <div class="row">
-                <div class="head col-lg-12">
-                    <div class="left col-lg-8"></div>
-                    <div class="right col-lg-4">
-                        <h2>Продукция</h2>
-                        <hr class="a1"/>
-                        <hr class="a2"/>
-                    </div>
-                </div>
-                <div class="item col-lg-12 col-md-12">
-                    <main class="cd-main-content">
-                        <section class="cd-gallery">
-                            <ul>
-                                <li class="mix flyers "><img  src="img/portfolio/1.png" alt="Image 1"></li>
-                                <li class="mix forms "><img src="img/portfolio/2.png" alt="Image 2"></li>
-                                <li class="mix flyers "><img src="img/portfolio/3.png" alt="Image 3"></li>
-                                <li class="mix booklets "><img src="img/portfolio/4.png" alt="Image 4"></li>
-                                <li class="mix flyers "><img src="img/portfolio/1.png" alt="Image 5"></li>
-                                <li class="mix forms "><img src="img/portfolio/2.png" alt="Image 6"></li>
-                                <li class="mix forms "><img src="img/portfolio/3.png" alt="Image 7"></li>
-                                <li class="mix flyers "><img src="img/portfolio/4.png" alt="Image 8"></li>
-                                <li class="mix color-2 "><img src="img/portfolio/1.png" alt="Image 9"></li>
-                                <li class="mix booklets "><img src="img/portfolio/2.png" alt="Image 10"></li>
-                                <li class="mix flyers "><img src="img/portfolio/3.png" alt="Image 11"></li>
-                                <li class="mix forms "><img src="img/portfolio/4.png" alt="Image 12"></li>
-                                <li class="mix cards "><img src="img/portfolio/1.png" alt="Image 11"></li>
-                                <li class="mix cards "><img src="img/portfolio/2.png" alt="Image 12"></li>
-                                <li class="gap"></li>
-                                <li class="gap"></li>
-                                <li class="gap"></li>
-                            </ul>
-                            <div class="cd-fail-message">No results found</div>
-                        </section> <!-- cd-gallery -->
-
-                    </main> <!-- cd-main-content -->
-                </div>
-
-            </div>
-        </div>
-    </section>
+<!--    <section id="production" class="production">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="head col-lg-12">-->
+<!--                    <div class="left col-lg-8"></div>-->
+<!--                    <div class="right col-lg-4">-->
+<!--                        <h2>Продукция</h2>-->
+<!--                        <hr class="a1"/>-->
+<!--                        <hr class="a2"/>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="item col-lg-12 col-md-12">-->
+<!--                    <main class="cd-main-content">-->
+<!--                        <section class="cd-gallery">-->
+<!--                            <ul>-->
+<!--                                <li class="mix flyers "><img  src="img/portfolio/1.png" alt="Image 1"></li>-->
+<!--                                <li class="mix forms "><img src="img/portfolio/2.png" alt="Image 2"></li>-->
+<!--                                <li class="mix flyers "><img src="img/portfolio/3.png" alt="Image 3"></li>-->
+<!--                                <li class="mix booklets "><img src="img/portfolio/4.png" alt="Image 4"></li>-->
+<!--                                <li class="mix flyers "><img src="img/portfolio/1.png" alt="Image 5"></li>-->
+<!--                                <li class="mix forms "><img src="img/portfolio/2.png" alt="Image 6"></li>-->
+<!--                                <li class="mix forms "><img src="img/portfolio/3.png" alt="Image 7"></li>-->
+<!--                                <li class="mix flyers "><img src="img/portfolio/4.png" alt="Image 8"></li>-->
+<!--                                <li class="mix color-2 "><img src="img/portfolio/1.png" alt="Image 9"></li>-->
+<!--                                <li class="mix booklets "><img src="img/portfolio/2.png" alt="Image 10"></li>-->
+<!--                                <li class="mix flyers "><img src="img/portfolio/3.png" alt="Image 11"></li>-->
+<!--                                <li class="mix forms "><img src="img/portfolio/4.png" alt="Image 12"></li>-->
+<!--                                <li class="mix cards "><img src="img/portfolio/1.png" alt="Image 11"></li>-->
+<!--                                <li class="mix cards "><img src="img/portfolio/2.png" alt="Image 12"></li>-->
+<!--                                <li class="gap"></li>-->
+<!--                                <li class="gap"></li>-->
+<!--                                <li class="gap"></li>-->
+<!--                            </ul>-->
+<!--                            <div class="cd-fail-message">No results found</div>-->
+<!--                        </section> <!-- cd-gallery -->
+<!---->
+<!--                    </main> <!-- cd-main-content -->
+<!--                </div>-->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
 
 
 <footer>
