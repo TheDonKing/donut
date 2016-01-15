@@ -85,6 +85,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@media (min-width: 1600px) {
+  .container {
+    width: 1550px;
+  }
+}
 h2{
   font-family: 'museo900', sans-serif;
   font-size: 6.253em;
@@ -99,6 +104,7 @@ p.descr{
 html{
   font-size: inherit;
 }
+
 body {
   font-family: 'Fira Sans', 'museo900', sans-serif;
   font-size: 62.5%;
@@ -306,34 +312,108 @@ body {
   }
 }
 .production{
+  padding-top: 50px;
   position: relative;
   .outline(red);
-  h2{
-    text-align:center;
-    margin-bottom:52px;
-  }
-  .right{
-    hr{
+  .box{
 
-      &.a1{
-        bottom: 5px;
-        left: 78px;
-        position: absolute;
-        width: 63%;
-      }
-      &.a2{
-        left: 100px;
-        bottom: -10px;
-        position: absolute;
-        width:70%;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    .left{
+      min-height: 250px;
+      height:auto;
+      background: url("../img/scroll.png") no-repeat 87% 10px;
+    }
+    .right{
+      hr{
+
+        &.a1{
+          bottom: 5px;
+          left: 78px;
+          position: absolute;
+          width: 63%;
+        }
+        &.a2{
+          left: 100px;
+          bottom: -10px;
+          position: absolute;
+          width:70%;
+        }
       }
     }
   }
 
+  h2{
+    text-align:center;
+    margin-bottom:52px;
+  }
 
-.item{
+  .item{
   max-width: 100%;
   overflow: hidden;
 }
+}
+.team{
+  background-color: #fff;
+  .upBox{
+    padding-bottom: 80px;
+    .upBox_h2{
+      position: relative;
+      overflow: hidden;
+      background: url("../img/scroll.png") no-repeat 95% 10px;
+      h2{
+        margin-bottom: 40px;
+        text-align: center;
+      }
+      hr{
+
+        &.a1{
+          bottom: 5px;
+          left: 200px;
+          position: absolute;
+          width: 50%;
+        }
+        &.a2{
+          left: 250px;
+          bottom: -10px;
+          position: absolute;
+          width: 50%;
+        }
+      }
+
+    }
+    .outline(red);
+    p{
+      margin-top: 125px;
+    }
+  }
+  .team-item{
+    overflow: hidden;
+    .outline(red);
+    height: auto;
+    width: 100%;
+    .item{
+      .outline(red);
+      img{
+        margin: 0 auto 20px;text-align: center;
+        display: block;
+        vertical-align: top;
+        max-width:100%;
+      }
+      h3{
+        margin: 0;
+        font:2.400em 'museo900', sans-serif;
+        text-align: center;
+      }
+      p{
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 1.600em;
+      }
+    }
+  }
 }
 

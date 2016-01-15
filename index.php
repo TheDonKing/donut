@@ -55,8 +55,9 @@
     <link href='//fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
     <link href='//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.0/animate.min.css' rel='stylesheet' type='text/css'>
     <link href='libs/mixtup/filter.css' rel='stylesheet' type='text/css'>
-    <!-- Удалить --> <!-- @TODO Удалить ссылку -->
+    <!-- Удалить -->
     <link href='libs/bootstrap/bootstrap.min.css' rel='stylesheet' type='text/css'>
+
 
 
     <!-- Root Style -->
@@ -145,48 +146,82 @@
         </div>
     </section>
 
-<!--    <section id="production" class="production">-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <div class="head col-lg-12">-->
-<!--                    <div class="left col-lg-8"></div>-->
-<!--                    <div class="right col-lg-4">-->
-<!--                        <h2>Продукция</h2>-->
-<!--                        <hr class="a1"/>-->
-<!--                        <hr class="a2"/>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="item col-lg-12 col-md-12">-->
-<!--                    <main class="cd-main-content">-->
-<!--                        <section class="cd-gallery">-->
-<!--                            <ul>-->
-<!--                                <li class="mix flyers "><img  src="img/portfolio/1.png" alt="Image 1"></li>-->
-<!--                                <li class="mix forms "><img src="img/portfolio/2.png" alt="Image 2"></li>-->
-<!--                                <li class="mix flyers "><img src="img/portfolio/3.png" alt="Image 3"></li>-->
-<!--                                <li class="mix booklets "><img src="img/portfolio/4.png" alt="Image 4"></li>-->
-<!--                                <li class="mix flyers "><img src="img/portfolio/1.png" alt="Image 5"></li>-->
-<!--                                <li class="mix forms "><img src="img/portfolio/2.png" alt="Image 6"></li>-->
-<!--                                <li class="mix forms "><img src="img/portfolio/3.png" alt="Image 7"></li>-->
-<!--                                <li class="mix flyers "><img src="img/portfolio/4.png" alt="Image 8"></li>-->
-<!--                                <li class="mix color-2 "><img src="img/portfolio/1.png" alt="Image 9"></li>-->
-<!--                                <li class="mix booklets "><img src="img/portfolio/2.png" alt="Image 10"></li>-->
-<!--                                <li class="mix flyers "><img src="img/portfolio/3.png" alt="Image 11"></li>-->
-<!--                                <li class="mix forms "><img src="img/portfolio/4.png" alt="Image 12"></li>-->
-<!--                                <li class="mix cards "><img src="img/portfolio/1.png" alt="Image 11"></li>-->
-<!--                                <li class="mix cards "><img src="img/portfolio/2.png" alt="Image 12"></li>-->
-<!--                                <li class="gap"></li>-->
-<!--                                <li class="gap"></li>-->
-<!--                                <li class="gap"></li>-->
-<!--                            </ul>-->
-<!--                            <div class="cd-fail-message">No results found</div>-->
-<!--                        </section> <!-- cd-gallery -->
-<!---->
-<!--                    </main> <!-- cd-main-content -->
-<!--                </div>-->
-<!---->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
+    <section id="production" class="production">
+        <div class="container">
+            <div class="row">
+                <div class="box col-lg-12">
+                    <div class="left col-lg-7"></div>
+                    <div class="right col-lg-5 ">
+                        <h2>Продукция</h2>
+                        <hr class="a1"/>
+                        <hr class="a2"/>
+                    </div>
+
+                </div>
+                <main class="cd-main-content">
+                    <section class="cd-gallery">
+                        <ul>
+                            <li class="mix"><img src="img/portfolio/1.png" alt="Image 1"></li>
+                            <li class="mix"><img src="img/portfolio/2.png" alt="Image 2"></li>
+                            <li class="mix"><img src="img/portfolio/3.png" alt="Image 3"></li>
+                            <li class="mix"><img src="img/portfolio/4.png" alt="Image 4"></li>
+                            <li class="mix"><img src="img/portfolio/5.png" alt="Image 5"></li>
+                            <li class="mix"><img src="img/portfolio/6.png" alt="Image 6"></li>
+                            <li class="mix"><img src="img/portfolio/7.png" alt="Image 7"></li>
+                            <li class="mix"><img src="img/portfolio/8.png" alt="Image 8"></li>
+                            <li class="mix"><img src="img/portfolio/9.png" alt="Image 9"></li>
+                            <li class="mix"><img src="img/portfolio/10.png" alt="Image 10"></li>
+                            <li class="mix"><img src="img/portfolio/11.png" alt="Image 11"></li>
+                            <li class="mix"><img src="img/portfolio/12.png" alt="Image 12"></li>
+                            <li class="mix"><img src="img/portfolio/13.png" alt="Image 12"></li>
+                            <li class="mix"><img src="img/portfolio/14.png" alt="Image 12"></li>
+                            <li class="mix"><img src="img/portfolio/15.png" alt="Image 12"></li>
+                            <li class="mix"><img src="img/portfolio/16.png" alt="Image 12"></li>
+                            <li class="mix"><img src="img/portfolio/17.png" alt="Image 12"></li>
+                            <li class="mix"><img src="img/portfolio/18.png" alt="Image 12"></li>
+                            <li class="gap"></li>
+                            <li class="gap"></li>
+                            <li class="gap"></li>
+                        </ul>
+                    </section> <!-- cd-gallery -->
+                </main> <!-- cd-main-content -->
+            </div>
+        </div>
+    </section>
+<section class="team">
+    <div class="container">
+        <div class="row">
+            <div class="upBox col-md-12">
+                <div class="upBox_h2 col-md-6">
+                    <h2>О Нас</h2>
+                    <hr class="a1"/>
+                    <hr class="a2"/>
+                </div>
+                <div class="upBox_p col-md-6">
+                    <p class="descr">Важнейшее условие для получения качественных готовых изделий. Для продукции, которая готовится во фритюре, рекомендуется использовать муку, содержащую не менее 27 процентов клейковины высокой эластичности. Соблюдение этого условия поможет добиться необходимого для пончиков объема и пышности, кроме того, изделия будут дольше сохранять аппетитный внешний вид и форму. Если же Вы по каким-то причинам вынуждены использовать муку с невысокими показателями, то на помощь придут улучшители.
+                    </p>
+                </div>
+            </div>
+            <div class="team-item col-md-12 ">
+                <div class="item col-lg-4 ">
+                    <img src="img/donut_1.png" alt=""/>
+                    <h3>Традиционный пончик</h3>
+                    <p>Представляет собой золотистый шарик. Пышка имеет форму кольца. Пышки и пончики готовятся в большом количестве масла и подаются горячими.</p>
+                </div>
+                <div class="item col-lg-4 ">
+                    <img src="img/donut_2.png" alt=""/>
+                    <h3>Берлинский пончик</h3>
+                    <p>Европейский пончик, особо популярный в Австрии и Германии. Готовится он из сладкого дрожжевого теста, путем обжаривания во фритюре с 2 сторон, переворачивая в процессе. В результате по окружности получается светлая полоса. Берлинеры обычно начиняют конфитюром или кремом, а сверху посыпают сахарной пудрой и поливают глазурью.</p>
+                </div>
+                <div class="item col-lg-4 ">
+                    <img src="img/donut_3.png" alt=""/>
+                    <h3>Донат</h3>
+                    <p>Американский пончик. Имеет форму кольца. Жарят донаты, погружая во фритюр. Донаты, как и берлинеры, готовят с разнообразными начинками (джем, заварной или белковый крем), а сверху покрывают глазурью или посыпают сахарной пудрой, орехами, кокосовой стружкой.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <footer>
@@ -200,9 +235,11 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.0/jquery.nicescroll.min.js"></script>
 <script type="text/javascript" src="libs/respond/respond.min.js"></script>
+
 <script type="text/javascript" src="libs/mixtup/jquery.mixitup.min.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="libs/landing-nav/navigation.js"></script>
+
 <script type="text/javascript" src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->

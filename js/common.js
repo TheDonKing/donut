@@ -72,8 +72,6 @@ $(document).ready(function() {
 		});
 		return false;
 	});
-
-    //Фильтр
     //open/close lateral filter
     $('.cd-filter-trigger').on('click', function(){
         triggerFilter(true);
@@ -126,17 +124,15 @@ $(document).ready(function() {
     })
 
     //fix lateral filter and gallery on scrolling
-    //$(window).on('scroll', function(){
-    //    (!window.requestAnimationFrame) ? fixGallery() : window.requestAnimationFrame(fixGallery);
-    //});
+    $(window).on('scroll', function(){
+        (!window.requestAnimationFrame) ? fixGallery() : window.requestAnimationFrame(fixGallery);
+    });
 
-    //Фиксация фильтра
-
-    //function fixGallery() {
-    //    var offsetTop = $('.cd-main-content').offset().top,
-    //        scrollTop = $(window).scrollTop();
-    //    ( scrollTop >= offsetTop ) ? $('.cd-main-content').addClass('is-fixed') : $('.cd-main-content').removeClass('is-fixed');
-    //}
+    function fixGallery() {
+        var offsetTop = $('.cd-main-content').offset().top,
+            scrollTop = $(window).scrollTop();
+        ( scrollTop >= offsetTop ) ? $('.cd-main-content').addClass('is-fixed') : $('.cd-main-content').removeClass('is-fixed');
+    }
 
     /************************************
      MitItUp filter settings
@@ -198,6 +194,7 @@ $(document).ready(function() {
             }
         }, 200 );
     });
+
 
 });
 
