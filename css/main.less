@@ -110,27 +110,33 @@ body {
   font-size: 62.5%;
   line-height: 1.66em;
   letter-spacing: 0.025em;
-  -webkit-text-size-adjust: 0.625em; /* 2 */
-  -ms-text-size-adjust: 0.625em; /* 2 */
   color: #000;
   background-color: #e6e6e7;
   font-kerning: auto;
 }
 .outline(@color){
-  outline: 1px solid @color;
+  outline: 0px solid @color;
 }
 @color_basic:#ffd500;
 @color_basic2:#000;
 @color_basic3:#d2eae3;
 @color_basic4:#fad663;
-
+.navbar-fixed-top{
+  background-color:@color_basic ;
+}
 
 .page1{
+  .navbar-toggle{
+    border-color:#000 ;
+    .icon-bar{
+      background-color: #000;
+    }
+  }
+
   overflow: hidden;
   width: 100%;
   height:auto;
   background:
-  url("../img/coffe.png") 98% 90% no-repeat,
   url("../img/donut.png") 10% 85% no-repeat,
   @color_basic;
 
@@ -220,6 +226,7 @@ body {
     }
   }
   .header{
+
     h2{
       font:7.727em 'museo900', sans-serif;
       text-align: center;
@@ -245,7 +252,7 @@ body {
     }
   }
 }
-.what , .production{
+.what, .production{
   background-color: #fff;
   height:auto;
   width: 100%;
@@ -310,10 +317,21 @@ body {
         }
       }
   }
+  .animation {
+    visibility:hidden;
+  }
+
+  .fadeInUp {
+    animation-duration: 0.7s;
+    animation-name: zoomIn;
+    animation-timing-function: ease;
+    visibility: visible !important;
+  }
 }
 .production{
   padding-top: 50px;
   position: relative;
+  padding-bottom: 100px;
   .outline(red);
   .box{
 
@@ -353,18 +371,30 @@ body {
   max-width: 100%;
   overflow: hidden;
 }
+  .animation {
+    visibility:hidden;
+  }
+
+  .fadeInUp {
+    animation-duration: 0.7s;
+    animation-name: fadeIn;
+    animation-timing-function: ease;
+    visibility: visible !important;
+  }
 }
 .team{
   background-color: #fff;
+  padding-bottom: 100px;
   .upBox{
     padding-bottom: 80px;
     .upBox_h2{
       position: relative;
       overflow: hidden;
-      background: url("../img/scroll.png") no-repeat 95% 10px;
+      background: url("../img/scroll.png") no-repeat 98% 10px;
       h2{
         margin-bottom: 40px;
         text-align: center;
+
       }
       hr{
 
@@ -396,15 +426,21 @@ body {
     .item{
       .outline(red);
       img{
-        margin: 0 auto 20px;text-align: center;
+        margin: 0 auto 50px;
+        text-align: center;
         display: block;
         vertical-align: top;
         max-width:100%;
       }
       h3{
         margin: 0;
-        font:2.400em 'museo900', sans-serif;
+        font:4.800em 'museo900', sans-serif;
         text-align: center;
+        line-height: 0.640em;
+        text-transform: uppercase;
+        span{
+          font-size:18px !important;
+        }
       }
       p{
         font-weight: 300;
@@ -415,5 +451,101 @@ body {
       }
     }
   }
+  .animation {
+    visibility:hidden;
+  }
+
+  .fadeInUp {
+    animation-duration: 0.7s;
+    animation-name: fadeInUp;
+    animation-timing-function: ease;
+    visibility: visible !important;
+  }
+
 }
 
+footer{
+  background-color: @color_basic3;
+  .box{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    .left{
+      min-height: 250px;
+      height:auto;
+    }
+    .right{
+      h2{
+        font-size:7.600em;
+        text-align:center;
+        margin-bottom:52px;
+      }
+      hr{
+        &.a1{
+          bottom: 5px;
+          left: 85px;
+          position: absolute;
+          width: 63%;
+        }
+        &.a2{
+          left: 100px;
+          bottom: -10px;
+          position: absolute;
+          width:70%;
+        }
+      }
+    }
+  }
+  form{
+    .form-control{
+      background-color:@color_basic4 ;
+      border: 3px solid #000;
+      border-radius: 15px;
+      &:focus{
+        border-color:#fff ;
+      }
+    }
+    .btn{
+      font: 1.600em 'museo900', sans-serif;
+      background-color: @color_basic4;
+      border: 3px solid #000000;
+      border-radius: 15px;
+      color:#000 ;
+      &:hover{
+        background-color:@color_basic ;
+        border-color: #000;
+      }
+    }
+    label{
+      font: 1.800em 'museo900', sans-serif;
+    }
+  }
+  .social{
+    margin-top:50px;
+    margin-left: 175px;
+    a{
+      overflow: hidden;
+      img{
+        margin-right:20px;
+      }
+    }
+  }
+  .contacts-txt{
+    margin-top:50px;
+    margin-left: 175px;
+    p{
+      font: 1.800em 'museo900', sans-serif;
+      margin-bottom: 50px;
+      &:nth-child(2){
+        float: left;
+        margin-right: 65px;
+      }
+      span{
+        font:16px 'Fira Sans', sans-serif;
+      }
+    }
+  }
+  .map{
+    margin-top:100px;
+  }
+}

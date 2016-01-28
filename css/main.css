@@ -95,19 +95,24 @@ body {
   font-size: 62.5%;
   line-height: 1.66em;
   letter-spacing: 0.025em;
-  -webkit-text-size-adjust: 0.625em;
-  /* 2 */
-  -ms-text-size-adjust: 0.625em;
-  /* 2 */
   color: #000;
   background-color: #e6e6e7;
   font-kerning: auto;
+}
+.navbar-fixed-top {
+  background-color: #ffd500;
 }
 .page1 {
   overflow: hidden;
   width: 100%;
   height: auto;
-  background: url("../img/coffe.png") 98% 90% no-repeat, url("../img/donut.png") 10% 85% no-repeat, #ffd500;
+  background: url("../img/donut.png") 10% 85% no-repeat, #ffd500;
+}
+.page1 .navbar-toggle {
+  border-color: #000 ;
+}
+.page1 .navbar-toggle .icon-bar {
+  background-color: #000;
 }
 .page1 nav {
   margin-top: 61px;
@@ -215,7 +220,7 @@ body {
 }
 .what .upBox {
   padding-bottom: 80px;
-  outline: 1px solid red;
+  outline: 0px solid red;
 }
 .what .upBox .upBox_h2 {
   position: relative;
@@ -241,13 +246,13 @@ body {
 }
 .what .donut {
   overflow: hidden;
-  outline: 1px solid red;
+  outline: 0px solid red;
   height: auto;
   width: 100%;
 }
 .what .donut .item {
   background: url("../img/itemline.png") no-repeat 50% 230px;
-  outline: 1px solid red;
+  outline: 0px solid red;
 }
 .what .donut .item img {
   margin: 0 auto 20px;
@@ -268,10 +273,20 @@ body {
   text-align: center;
   font-size: 1.600em;
 }
+.what .animation {
+  visibility: hidden;
+}
+.what .fadeInUp {
+  animation-duration: 0.7s;
+  animation-name: zoomIn;
+  animation-timing-function: ease;
+  visibility: visible !important;
+}
 .production {
   padding-top: 50px;
   position: relative;
-  outline: 1px solid red;
+  padding-bottom: 100px;
+  outline: 0px solid red;
 }
 .production .box {
   overflow: hidden;
@@ -303,17 +318,27 @@ body {
   max-width: 100%;
   overflow: hidden;
 }
+.production .animation {
+  visibility: hidden;
+}
+.production .fadeInUp {
+  animation-duration: 0.7s;
+  animation-name: fadeIn;
+  animation-timing-function: ease;
+  visibility: visible !important;
+}
 .team {
   background-color: #fff;
+  padding-bottom: 100px;
 }
 .team .upBox {
   padding-bottom: 80px;
-  outline: 1px solid red;
+  outline: 0px solid red;
 }
 .team .upBox .upBox_h2 {
   position: relative;
   overflow: hidden;
-  background: url("../img/scroll.png") no-repeat 95% 10px;
+  background: url("../img/scroll.png") no-repeat 98% 10px;
 }
 .team .upBox .upBox_h2 h2 {
   margin-bottom: 40px;
@@ -336,15 +361,15 @@ body {
 }
 .team .team-item {
   overflow: hidden;
-  outline: 1px solid red;
+  outline: 0px solid red;
   height: auto;
   width: 100%;
 }
 .team .team-item .item {
-  outline: 1px solid red;
+  outline: 0px solid red;
 }
 .team .team-item .item img {
-  margin: 0 auto 20px;
+  margin: 0 auto 50px;
   text-align: center;
   display: block;
   vertical-align: top;
@@ -352,8 +377,13 @@ body {
 }
 .team .team-item .item h3 {
   margin: 0;
-  font: 2.4em 'museo900', sans-serif;
+  font: 4.8em 'museo900', sans-serif;
   text-align: center;
+  line-height: 0.640em;
+  text-transform: uppercase;
+}
+.team .team-item .item h3 span {
+  font-size: 18px !important;
 }
 .team .team-item .item p {
   font-weight: 300;
@@ -361,4 +391,92 @@ body {
   margin-top: 30px;
   text-align: center;
   font-size: 1.600em;
+}
+.team .animation {
+  visibility: hidden;
+}
+.team .fadeInUp {
+  animation-duration: 0.7s;
+  animation-name: fadeInUp;
+  animation-timing-function: ease;
+  visibility: visible !important;
+}
+footer {
+  background-color: #d2eae3;
+}
+footer .box {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+footer .box .left {
+  min-height: 250px;
+  height: auto;
+}
+footer .box .right h2 {
+  font-size: 7.600em;
+  text-align: center;
+  margin-bottom: 52px;
+}
+footer .box .right hr.a1 {
+  bottom: 5px;
+  left: 85px;
+  position: absolute;
+  width: 63%;
+}
+footer .box .right hr.a2 {
+  left: 100px;
+  bottom: -10px;
+  position: absolute;
+  width: 70%;
+}
+footer form .form-control {
+  background-color: #fad663;
+  border: 3px solid #000;
+  border-radius: 15px;
+}
+footer form .form-control:focus {
+  border-color: #fff ;
+}
+footer form .btn {
+  font: 1.6em 'museo900', sans-serif;
+  background-color: #fad663;
+  border: 3px solid #000000;
+  border-radius: 15px;
+  color: #000 ;
+}
+footer form .btn:hover {
+  background-color: #ffd500;
+  border-color: #000;
+}
+footer form label {
+  font: 1.8em 'museo900', sans-serif;
+}
+footer .social {
+  margin-top: 50px;
+  margin-left: 175px;
+}
+footer .social a {
+  overflow: hidden;
+}
+footer .social a img {
+  margin-right: 20px;
+}
+footer .contacts-txt {
+  margin-top: 50px;
+  margin-left: 175px;
+}
+footer .contacts-txt p {
+  font: 1.8em 'museo900', sans-serif;
+  margin-bottom: 50px;
+}
+footer .contacts-txt p:nth-child(2) {
+  float: left;
+  margin-right: 65px;
+}
+footer .contacts-txt p span {
+  font: 16px 'Fira Sans', sans-serif;
+}
+footer .map {
+  margin-top: 100px;
 }
