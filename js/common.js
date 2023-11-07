@@ -1,7 +1,9 @@
 $(document).ready(function() {
 
     //Плавный скролл
-    $("html").niceScroll();
+    $("html").niceScroll({
+        mousescrollstep: 80,
+    });
 
     //HEADER на всю ширину
     function heightDetect(){

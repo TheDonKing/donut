@@ -83,7 +83,7 @@ h2 {
 }
 p.descr {
   font-weight: 300;
-  font-size: 1.600em ;
+  font-size: 1.6em;
   line-height: normal;
   letter-spacing: normal;
 }
@@ -109,7 +109,7 @@ body {
   background: url("../img/donut.png") 10% 85% no-repeat, #ffd500;
 }
 .page1 .navbar-toggle {
-  border-color: #000 ;
+  border-color: #000;
 }
 .page1 .navbar-toggle .icon-bar {
   background-color: #000;
@@ -138,7 +138,7 @@ body {
 .page1 nav ul .button {
   float: left;
   display: block;
-  margin: 0.300em;
+  margin: 0.3em;
   padding: 7px 10px;
   border: none;
   background: none;
@@ -202,7 +202,7 @@ body {
 }
 .page1 .more {
   position: absolute;
-  bottom: 25px;
+  bottom: 100px;
   left: 0;
   right: 0;
   width: 17%;
@@ -254,6 +254,11 @@ body {
   background: url("../img/itemline.png") no-repeat 50% 230px;
   outline: 0px solid red;
 }
+@media (max-width: 325px) {
+  .what .donut .item {
+    background: url("../img/itemline.png") no-repeat 50% 158px;
+  }
+}
 .what .donut .item img {
   margin: 0 auto 20px;
   text-align: center;
@@ -271,7 +276,7 @@ body {
   line-height: normal;
   margin-top: 30px;
   text-align: center;
-  font-size: 1.600em;
+  font-size: 1.6em;
 }
 .what .animation {
   visibility: hidden;
@@ -379,7 +384,7 @@ body {
   margin: 0;
   font: 4.8em 'museo900', sans-serif;
   text-align: center;
-  line-height: 0.640em;
+  line-height: 0.64em;
   text-transform: uppercase;
 }
 .team .team-item .item h3 span {
@@ -390,7 +395,7 @@ body {
   line-height: normal;
   margin-top: 30px;
   text-align: center;
-  font-size: 1.600em;
+  font-size: 1.6em;
 }
 .team .animation {
   visibility: hidden;
@@ -414,7 +419,7 @@ footer .box .left {
   height: auto;
 }
 footer .box .right h2 {
-  font-size: 7.600em;
+  font-size: 7.6em;
   text-align: center;
   margin-bottom: 52px;
 }
@@ -436,14 +441,14 @@ footer form .form-control {
   border-radius: 15px;
 }
 footer form .form-control:focus {
-  border-color: #fff ;
+  border-color: #fff;
 }
 footer form .btn {
   font: 1.6em 'museo900', sans-serif;
   background-color: #fad663;
   border: 3px solid #000000;
   border-radius: 15px;
-  color: #000 ;
+  color: #000;
 }
 footer form .btn:hover {
   background-color: #ffd500;
@@ -480,3 +485,4 @@ footer .contacts-txt p span {
 footer .map {
   margin-top: 100px;
 }
+/*# sourceMappingURL=main.css.map */

@@ -19,11 +19,11 @@
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-	
+
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+
 }
 /*
  * По умолчанию горизонтальная линейка
@@ -240,7 +240,7 @@ body {
   }
   .more{
     position: absolute;
-    bottom:25px;
+    bottom: 100px;
     left:0;
     right: 0;
 
@@ -297,6 +297,11 @@ body {
       .item{
         background: url("../img/itemline.png") no-repeat 50% 230px;
         .outline(red);
+
+        @media (max-width: 325px) {
+          background: url("../img/itemline.png") no-repeat 50% 158px;
+        }
+
         img{
           margin: 0 auto 20px;text-align: center;
           display: block;

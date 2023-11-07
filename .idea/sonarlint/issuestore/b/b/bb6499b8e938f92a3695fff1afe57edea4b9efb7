@@ -1,0 +1,27 @@
+
+CWeb:PageWithoutTitleCheckM"Add a <title> tag to this page.(¾¬÷"
+NWeb:AvoidCommentedOutCodeCheckO"Remove this commented out code.(·©‡şÿÿÿÿ
+Qphp:S105"EReplace all tab characters in this file by sequences of white-spaces.
+dphp:S103"KSplit this 124 characters long line (which is greater than 120 authorized).(—‘¾õûÿÿÿÿ
+dphp:S1035"KSplit this 207 characters long line (which is greater than 120 authorized).(œñ¬ûÿÿÿÿ
+dphp:S1036"KSplit this 124 characters long line (which is greater than 120 authorized).(´öëøÿÿÿÿ
+_php:S1037"KSplit this 132 characters long line (which is greater than 120 authorized).(šŒ¶
+dphp:S103V"KSplit this 175 characters long line (which is greater than 120 authorized).(ÄòÒŒıÿÿÿÿ
+_php:S103^"KSplit this 122 characters long line (which is greater than 120 authorized).(Ë¨ŞÏ
+_php:S103g"KSplit this 143 characters long line (which is greater than 120 authorized).(½Üşı
+dphp:S103h"KSplit this 146 characters long line (which is greater than 120 authorized).(¸µşÅıÿÿÿÿ
+dphp:S103i"KSplit this 148 characters long line (which is greater than 120 authorized).(¹ÄÈ±øÿÿÿÿ
+dphp:S103j"KSplit this 138 characters long line (which is greater than 120 authorized).(‚î°ˆùÿÿÿÿ
+dphp:S103k"KSplit this 145 characters long line (which is greater than 120 authorized).(ú¸é·úÿÿÿÿ
+ephp:S103…"KSplit this 508 characters long line (which is greater than 120 authorized).(è™ùûÿÿÿÿ
+ephp:S103Œ"KSplit this 167 characters long line (which is greater than 120 authorized).(ÜéêÜøÿÿÿÿ
+ephp:S103‘"KSplit this 288 characters long line (which is greater than 120 authorized).(Ú–”Ûúÿÿÿÿ
+`php:S103Ì"KSplit this 523 characters long line (which is greater than 120 authorized).(Å²ëÿ
+`php:S103Ô"KSplit this 243 characters long line (which is greater than 120 authorized).(‚ÏÃ°
+`php:S103Ù"KSplit this 317 characters long line (which is greater than 120 authorized).(å°
+`php:S103ß"KSplit this 205 characters long line (which is greater than 120 authorized).(Å†áà
+ephp:S103†"KSplit this 157 characters long line (which is greater than 120 authorized).(˜Ïòûÿÿÿÿ
+ephp:S103›"KSplit this 219 characters long line (which is greater than 120 authorized).(´Ô™æûÿÿÿÿ
+`php:S103¤"KSplit this 193 characters long line (which is greater than 120 authorized).(´ÂŠÔ
+ephp:S103¥"KSplit this 128 characters long line (which is greater than 120 authorized).(¸ìıÿÿÿÿ
+3php:S113"'Add a new line at the end of this file.
